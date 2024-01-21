@@ -41,11 +41,26 @@
 // }
 
 //     4. Foydalanuvchi yilni kiritadi. Dastur esa kiritilgan yil kabisa yilimi yoqmi aytishi kerak.
+// let son = +prompt(" yil kirgazing","")
 
+//  if(son % 4 == 0){
+//    if(son % 100 == 0){
+
+//       if(son % 400 == 0){
+//          document.write(`siz kiritgan yil ${son} kabissa yoli`)
+//       }
+//      document.write(`siz kiritgan yil ${son} kabissa yiliemas`)
+//    }
+//    document.write(`siz kiritgan yil ${son} kabissa yoli`)
+//  }
+//  else{
+//    document.write(`siz kiritgan yil ${son} kabissa yili emas`)
+//  }
 //     5. Foydalanuvchi n son kiritadi. n gacha bo'lgan sonlarning ko' paytamasini toping
 //     Masalan
 //     Input: 3
 //     Output: 6 (Chunki 1*2*3=6)
+
 
 //     6. Baxolash sistemasi. Ball (0 dan 100gacha) kiritilganda 5 yoki 4 yoki 3 yoki qolib ketganini chiqaruvchi dastur tuzib bering.
 
@@ -68,16 +83,16 @@
 //     8. Kiritilga yosh qaysi levelda ekanligni aniqlab beruvchi dastur yozib bering.
  
 // document.getElementById(yosh)
-let yosh = +prompt("yoshingizni kirgazing","")
-if(yosh >= 1 && yosh <=3){document.write(`Chaqaloq в‡’${yosh} =>  1-3 oraligi`)}
-else if(yosh >= 4 && yosh <=6){document.write(`Go'dak в‡’${yosh} =>   4-6 oraligi`)}
-else if(yosh >= 7 && yosh <=12){document.write(`Nola в‡’${yosh} =>  7-12  oraligi`)}
-else if(yosh >= 13 && yosh <=18){document.write(`O'smir в‡’${yosh}  =>  13-18 oraligi`)}
-else if(yosh >= 18 && yosh <=20){document.write(`O'spirin в‡’${yosh} =>   18-20 oraligi`)}
-else if(yosh >= 21 && yosh <=40){document.write(`Erkak в‡’${yosh} =>   21-40 oraligi`)}
-else if(yosh >= 41 && yosh <=60){document.write(`Amaki в‡’${yosh} =>   41-60 oraligi`)}
-else if(yosh>=60){document.write(`Bobo в‡’${yosh}  =>   60 + oraligi`)}
-else(" siz notog'ri malumot kirgazdingiz !!" )
+// let yosh = +prompt("yoshingizni kirgazing","")
+// if(yosh >= 1 && yosh <=3){document.write(`Chaqaloq в‡’${yosh} =>  1-3 oraligi`)}
+// else if(yosh >= 4 && yosh <=6){document.write(`Go'dak в‡’${yosh} =>   4-6 oraligi`)}
+// else if(yosh >= 7 && yosh <=12){document.write(`Nola в‡’${yosh} =>  7-12  oraligi`)}
+// else if(yosh >= 13 && yosh <=18){document.write(`O'smir в‡’${yosh}  =>  13-18 oraligi`)}
+// else if(yosh >= 18 && yosh <=20){document.write(`O'spirin в‡’${yosh} =>   18-20 oraligi`)}
+// else if(yosh >= 21 && yosh <=40){document.write(`Erkak в‡’${yosh} =>   21-40 oraligi`)}
+// else if(yosh >= 41 && yosh <=60){document.write(`Amaki в‡’${yosh} =>   41-60 oraligi`)}
+// else if(yosh>=60){document.write(`Bobo в‡’${yosh}  =>   60 + oraligi`)}
+// else(" siz notog'ri malumot kirgazdingiz !!" )
         
 //         Chaqaloq в‡’ 1-3
 //         Go'dak  в‡’ 4-6
