@@ -61,28 +61,64 @@
 // //    3 karra kamaytirib beruvchi dastur tuzib bering.
 // //    misol uchun: 4 va 3 => natija: 7 va -6
 
-let son1 = +prompt(`son kitgazing `," ")
-let son2 = +prompt(`son kitgazing `," ")
+// let son1 = +prompt(`son kitgazing `," ")
+// let son2 = +prompt(`son kitgazing `," ")
 
-if(son1 % 2 == 0 || son1 % 3 == 0){
-   document.write(son1 + 3, ` => `,son1-10)
-} 
-else if(son2 % 2 == 0 || son2 % 3 == 0){
-   document.write( `${son2+3}`,` => `,`-${son2-10}` )
-}else{"xatao"}
+// if(son1 % 2 == 0 || son1 % 3 == 0){
+//    document.write(son1 + 3, ` => `,son1-10)
+// } 
+// else if(son2 % 2 == 0 || son2 % 3 == 0){
+//    document.write( `${son2+3}`,` => `,`-${son2-10}` )
+// }else{"xatao"}
 
 
 // - **UYGA VAZIFA!**
 //     - 1-masala
 //     Ikki xonali son berilgan. console oynasida birinchi o'nlik xonasidagi son, ikkinchi
 //     birlar xonasidagi son chiqarilsin va raqamlar yig'indisi xisoblansin
+// let x = +prompt("2 honali sonkirgazing", " ")
+
+//  let onlik = Math.floor(x/10)
+//  let birlik = x % 10
+//  document.write(`onlik hona =>  ${ onlik}  birlik hona => ${birlik} <br> Yigindi ===  ${ onlik+birlik}`)
+
+
 //     - 2-masala
 //     Ikki xonali son berilgan. Uning raqamlar o'rni almashganda son hosil qilib bering. m-u: 25 в‡’ 52, 61 в‡’ 16, 94 в‡’ 49, v.k
+
+   // let x = +prompt("2 honali sonkirgazing", " ")
+   //  let onlik = Math.floor(x/10)
+   //  let birlik = x % 10
+   //  document.write(onlik,birlik ,"<br>")
+   //  let a = birlik;
+   //  let b = onlik;
+   // document.write(a,b)
+  
+
+
 //     - 3-masala
 //     A kesma va B kesma berilgan. A kesma ichida B kesmadan necha marta joylashtirish mumkin?
+
+//  let a = +prompt("a kesmani uzunligini kirgazing "," ")
+//  let b = +prompt("b kesmani uzunligini kirgazing "," ")
+
+//  let x = a/b;
+//  Math.floor(x)
+//  document.write(x)
+
 //     - 4-masala
 //     4 xonali sonlarni 1000lar 100lar 10lar va birlar xonasidagi sonni chiqaradigan dastur yasab bering.
 //     - Yuqoridagi misollardan tashqari darsda koвЂ™rilgan misollarni yana qayta oвЂ™zi mustaqil yozib tahlil qilib kelish.
+
+
+// let x = +prompt("4 honali sonkirgazing", " ")
+//    //  let onlik = Math.floor(x/10)
+//     let minglik = Math.floor(x / 1000)
+//     let yuzlar = Math.floor(x / 100%10)
+//     let onlar = Math.floor(x / 10%10)
+//     let birlar = Math.floor(x %10)
+//   document.write(`Minglik honasi => ${minglik} Yuzlik => ${yuzlar}  O'nlik => ${onlar}  Birlik => ${birlar}`)
+   
     
 //     QoвЂ™shimcha Ustoz tomonida boshqa misollar ham boвЂ™lsa berilishi tafsiya beriladi.
 
